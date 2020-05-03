@@ -1,0 +1,124 @@
+#mainContainer {
+    width: 50%;
+    padding-left: 40%;
+}
+
+#container {
+    background-color: rgb(165, 165, 165);
+    width: 50%;
+    height: 500px;
+}
+
+#infodiv {
+    display: flex;
+}
+
+#info {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    padding-left: 55px;
+}
+
+#volume {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#rules {
+    float: left;
+    border-style: solid;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    width: 200px;
+}
+
+#boxContainer {
+    display: flex;
+}
+
+#box1 {
+    flex: 1;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    background-color: black;
+    color: chartreuse;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    font-size: 40px;
+}
+
+#box2 {
+    flex: 1;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    background-color: black;
+    color: chartreuse;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    font-size: 40px;
+}
+
+#slots {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#slot1 {
+    flex: 1;
+}
+
+#slot2 {
+    flex: 1;
+}
+
+#slot3 {
+    flex: 1;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    padding-left: 3px;
+}
+
+#message {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(143, 141, 141);
+}
+
+#buttons {
+    padding-top: 30px;
+    display: flex;
+}
+
+#button1 {
+    flex: 1;
+    background-color: rgb(143, 141, 141);
+    height: 50px;
+}
+
+#button2 {
+    flex: 1;
+    background-color: rgb(143, 141, 141);
+    height: 50px;
+}
+
+#button3 {
+    flex: 1;
+    background-color: rgb(143, 141, 141);
+    height: 50px;
+}
