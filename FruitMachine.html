@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This is a site that has been built to provide users with the ability to play FruitMachine." />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta name="author" content="Sourav Malhi" />
+    <link rel="stylesheet" href="FruitMachineStyles/FruitMachine.css">
+    <title>Fruit Machine</title>
+</head>
+
+<body>
+    <h1>Rules:</h1>
+    <p id="rules">
+        User can only spin the reels if they have enough credit each spin costs one credit one credit is added each time the "credit" button is clicked<br><br>If all 3 reels are the same, the user's winnings increase by 10.<br><br>If the middle reel and
+        the right-most reel are the same,the user's winnings increase by 5<br><br>The user can collect their winnings by clicking "collect" button, which sets the winnings accrued back to 0
+    </p>
+    <div id="mainContainer">
+        <div id="container">
+            <div id="infodiv">
+                <p id="info">
+                    <B>Credit:</B>
+                </p>
+                <p id="info">
+                    <B>Winnings:</B>
+                </p>
+            </div>
+            <div id="boxContainer">
+                <p id="box1">0</p>
+                <p id="box2">0</p>
+            </div>
+
+            <div id="slots">
+                <img id="slot1" src="images/apple.png">
+                <img id="slot2" src="images/banana.png">
+                <img id="slot3" src="images/grapes.png">
+            </div>
+
+            <p id="message" type="text"></p>
+
+            <div id="buttons">
+                <button id="button1">Credit</button>
+                <button id="button2">Spin</button>
+                <button id="button3">Collect</button>
+            </div>
+        </div>
+        <p id="volume"></p>
+    </div>
+    <script src="FruitMachineScript/FruitMachine.js"></script>
+</body>
+
+</html>
