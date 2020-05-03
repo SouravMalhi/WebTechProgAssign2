@@ -1,0 +1,41 @@
+* {
+    font-family: "Trebuchet MS", Arial, Arial, Helvetica;
+    background-color: black;
+}
+
+#container {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 5px;
+}
+
+#name {
+    color: white;
+}
+
+#address {
+    color: white;
+}
+
+#show {
+    color: white;
+}
+
+#seats {
+    color: white;
+}
+
+#buyButton {
+    color: white;
+}
+
+body {
+    color: white;
+}

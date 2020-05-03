@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This is a site that has been built to provide users with the ability to buy TheatreTickets." />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta name="author" content="Sourav Malhi" />
+    <link rel="stylesheet" href="styles/TheatreTickets.css">
+    <title>Theatre Tickets</title>
+</head>
+
+<body>
+    <div id=container>
+        <form>
+            <fieldset>
+                <legend>Purchase Your Theatre Tickets Here.</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" value="" required="required">
+                </p>
+                <p>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" value="" required="required">
+
+
+                </p>
+                <p>
+                    <label for="show">Shows:</label>
+                    <select id="show" width="70">
+                        <option value="None" selected>-- Please select an option --</option>
+                        <option value="79">Phantom of the Opera</option>
+                        <option value="85">Hamilton</option>
+                        <option value="67">Lion King</option>
+                        <option value="83">Miss Saigon</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="seats">Number of seats:</label>
+                    <input type="number" id="seats" value="0" min="1" required="required">
+
+
+                </p>
+                <input type="radio" id="eticket" name="delivery" checked>
+                <label for="eticket">E-Ticket
+                    <br><br>
+                    <input type="radio" id="phone" name="delivery">
+                    <label for="phone">Collection
+                        <br><br>
+                        <input type="radio" id="post" name="delivery">
+                        <label for="post">Post
+                            <br><br>
+                            <p id="Display"></p>
+                            <br><br>
+                            <button type="button" id="buyButton">Buy</button>
+
+            </fieldset>
+
+        </form>
+    </div>
+    <script src="script/TheatreTickets.js"></script>
+</body>
+
+</html>
